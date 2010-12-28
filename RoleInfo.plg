@@ -1,0 +1,40 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: RoleInfo - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Release/RoleInfo.res" /d "NDEBUG" /d "_AFXDLL" "D:\workspace\vc6\RoleInfo\RoleInfo.rc"" 
+Creating temporary file "C:\Users\Enzo\AppData\Local\Temp\RSP4F6E.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Release/RoleInfo.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\workspace\vc6\RoleInfo\RoleInfo.cpp"
+"D:\workspace\vc6\RoleInfo\RoleInfoDlg.cpp"
+]
+Creating command line "cl.exe @C:\Users\Enzo\AppData\Local\Temp\RSP4F6E.tmp" 
+Creating temporary file "C:\Users\Enzo\AppData\Local\Temp\RSP4F6F.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Release/RoleInfo.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\workspace\vc6\RoleInfo\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\Users\Enzo\AppData\Local\Temp\RSP4F6F.tmp" 
+Creating command line "link.exe /nologo /subsystem:windows /incremental:no /pdb:"Release/RoleInfo.pdb" /machine:I386 /out:"Release/RoleInfo.exe"  .\Release\RoleInfo.obj .\Release\RoleInfoDlg.obj .\Release\StdAfx.obj .\Release\RoleInfo.res "
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+RoleInfo.cpp
+RoleInfoDlg.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+RoleInfo.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
